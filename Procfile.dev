@@ -1,0 +1,2 @@
+api: PORT=3000 bundle exec rails server
+web: PORT=4000 yarn --cwd ../demo-next-app-1 run dev -- -p 4000
